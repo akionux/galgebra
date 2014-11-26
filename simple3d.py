@@ -17,6 +17,8 @@ B = MV('B','bivector',fct=True)
 T = MV(base='T,3',mvtype='grade',fct=True)
 A = MV('A','mv')
 
+print r'\text{Geometric Algebra on 3-dimensional Euclidean space}'
+
 print r'\text{metric}'
 print r'g_{ij} =',MV.metric
 
@@ -45,7 +47,7 @@ print r'grad|\bm{B} =',grad|B
 print r'grad^\bm{B} =',grad^B
 print r'\star \bm{B} =',B*e_1*e_2*e_3
 
-print r'\text{3-vector}'
+print r'\text{Pseudo-Scalar(3-vector)}'
 print r'\bm{T} =',T
 print r'grad*\bm{T} =',grad*T
 print r'grad|\bm{T} =',grad|T
